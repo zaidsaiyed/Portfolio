@@ -3,7 +3,9 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello world!');
+    console.log('Hello World');
+    // link it to the index.html
+    res.sendFile(__dirname + '/index.html');
     }
 );
 
