@@ -7,4 +7,4 @@ app.get('/', (req, res) => {
     }
 );
 
-app.listen(3000, () => console.log('Server is Ready\nhttp://localhost:3000'));
+app.listen(3000, () => console.log('Server is Ready/n http://localhost:3000'));
