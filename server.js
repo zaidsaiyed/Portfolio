@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    console.log('Hello World');
+    console.log('Hello World!');
     // link it to the index.html
     res.sendFile(__dirname + '/index.html');
     }
