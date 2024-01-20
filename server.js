@@ -3,10 +3,9 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    console.log('Hello World!');
     // link it to the index.html
     res.sendFile(__dirname + '/index.html');
     }
 );
 
-app.listen(3000, () => console.log('Server is Ready\n http://localhost:3000'));
+app.listen(3000, () => console.log('\n************************\nServer is Ready\nhttp://localhost:3000'));
